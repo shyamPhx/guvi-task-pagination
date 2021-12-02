@@ -1,0 +1,89 @@
+table{
+  width: 100%;
+}
+
+table, td { 
+  border: 1px solid red; 
+  text-align:left; 
+  font-size: 12px;
+} 
+
+#inputTable td{
+  text-align:center;
+  border: 2px solid red;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+
+td { 
+  background-color:none; 
+}
+
+.position-abs{
+  position: absolute;
+  left: 18px;
+  top:208px;
+}
+
+.position-rel{
+  position: relative;
+  left: 10px;
+  top:0;
+}
+
+
+
+.btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  
+  color: red;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 1em 1em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.btn:hover{
+  color: #fff;
+  outline: 0;
+}
+
+
+.section{
+  color: red;
+}
+
+.section:hover{
+  color: #fff;
+  cursor: pointer;
+}
+
+.red{
+  background-color: red;
+  color: white;
+}
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  -moz-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  -ms-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  -o-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.first:hover {
+  box-shadow: 0 0 40px 40px red inset;
+}
